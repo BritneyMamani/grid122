@@ -1,0 +1,200 @@
+.padre
+{ 
+    background-color: rgb(255, 0, 43);
+    padding: 5px; 
+    display: grid;
+    grid-template-columns: 25% 25% 18% 12% 13%;
+    grid-template-rows:80px 80px 80px 55px 55px;
+    justify-content: space-between;
+   
+}
+.hijo1
+{
+    
+    background-color: rgb(93, 243, 88);
+    margin: 3px;
+    border-color: rgb(7, 80, 25);
+    border-style: dotted;
+    font-size: 40px;
+    grid-column: 1/6;
+}
+.hijo2
+{
+    
+    background-color: rgb(93, 243, 88);
+    margin: 3px;
+    border-color: rgb(7, 80, 25);
+    border-style: dotted;
+    font-size: 40px;
+    grid-column: 1/3;
+}
+.hijo3
+{
+    
+    background-color: rgb(93, 243, 88);
+    margin: 3px;
+    border-color: rgb(7, 80, 25);
+    border-style: dotted;
+    font-size: 40px;
+    grid-column: 3/4;
+}
+.hijo4
+{
+    
+    background-color: rgb(93, 243, 88);
+    margin: 3px;
+    border-color: rgb(7, 80, 25);
+    border-style: dotted;
+    font-size: 40px;
+    grid-column: 4/6;
+}
+.hijo5
+{
+    
+    background-color: rgb(93, 243, 88);
+    margin: 3px;
+    border-color: rgb(7, 80, 25);
+    border-style: dotted;
+    font-size: 40px;
+    grid-column: 1/2;
+}
+.hijo6
+{
+    
+    background-color: rgb(93, 243, 88);
+    margin: 3px;
+    border-color: rgb(7, 80, 25);
+    border-style: dotted;
+    font-size: 40px;
+    grid-column: 2/6;
+}
+.hijo7
+{
+    background-color: rgb(93, 243, 88);
+    margin: 3px;
+    border-color: rgb(7, 80, 25);
+    border-style: dotted;
+    font-size: 40px;
+    grid-column: 1/4;
+    grid-row: 4/6;
+}
+.hijo8
+{
+    background-color: rgb(93, 243, 88);
+    margin: 3px;
+    border-color: rgb(7, 80, 25);
+    border-style: dotted;
+    font-size: 40px;
+    grid-column: 4/6;
+    grid-row: 4/5;
+}
+.hijo9
+{
+    background-color: rgb(93, 243, 88);
+    margin: 3px;
+    border-color: rgb(7, 80, 25);
+    border-style: dotted;
+    font-size: 40px;
+    grid-column: 4/6;
+    grid-row: 5/6;
+}
+.padre2
+{
+    background-color: rgb(231, 77, 77);
+    height: 400px;
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+}
+.hijito1
+{
+    background-color: beige;
+    margin: 10px;
+    width: 230px;
+    font-size: 40px;
+    /*display: flex;
+    float: left;*/
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+.hijito2
+{
+    background-color: beige;
+    /*display: flex;
+    float: left;*/
+    margin: 10px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.hijito3
+{
+    background-color: beige;
+    margin: 10px;
+    width: 230px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+.cuadro1
+{
+    background-color: blueviolet;
+    width: 500px;
+    height: 100px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    right: 200px;
+    position: absolute;
+    left: 420px;
+    font-size: 30px;
+}
+.cuadro2
+{
+    background-color: blueviolet;
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+    margin-top: 15%;
+    position: absolute;
+    left: 400px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+    
+}
+.cuadro3
+{
+    background-color:blueviolet;
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+    margin-top: 15%;
+    position: absolute;
+    left: 700px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+
+.padre3
+{
+    background-color: chocolate;
+    height: 300px;
+    padding: 40px;
+    display: grid;
+    /*grid-template-columns: 50% 20% auto auto;
+    grid-template-rows:300px 200px auto;*/
+    justify-content: center;
+    
+    
+}
